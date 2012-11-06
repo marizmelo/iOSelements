@@ -1,0 +1,95 @@
+/*
+	Stylesheet file for iOSelements
+	http://github.com/jmarizgit/ioselements
+	by Mariz Melo MM 2012
+	MIT license
+*/
+/* RESET */
+html,body,
+ul,dl,dd,dt,li,
+h1,h2,h3,h4,h6,
+form,input,select,button,textarea{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	font-family: 'Roboto', Arial;
+}
+header{
+	width: 100%;
+	top: 0;
+	position: fixed;
+	border-top: 1px solid white;
+	border-bottom: 1px solid #30486E;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	background: rgb(176,191,214);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IwYmZkNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NjVlODciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgb(176,191,214) 0%, rgb(70,94,135) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(176,191,214)), color-stop(100%,rgb(70,94,135)));
+	background: -webkit-linear-gradient(top,  rgb(176,191,214) 0%,rgb(70,94,135) 100%);
+	background: -o-linear-gradient(top,  rgb(176,191,214) 0%,rgb(70,94,135) 100%);
+	background: -ms-linear-gradient(top,  rgb(176,191,214) 0%,rgb(70,94,135) 100%);
+	background: linear-gradient(to bottom,  rgb(176,191,214) 0%,rgb(70,94,135) 100%);
+	*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0bfd6', endColorstr='#465e87',GradientType=0 );
+	}header h1{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	text-shadow: -1px -1px 0px #444C58;
+  	filter: dropshadow(color=#444C58, offx=-1, offy=-1);
+	}
+ul{
+	background: white;
+	list-style: none;
+	margin: 0 20px;
+	border-bottom: 1px solid white;
+	}ul.title{
+	margin-top: 60px;
+	}ul li{
+	cursor: pointer;
+	font-weight: bold;
+	padding: 20px;
+	border-top: 1px solid #BEBEBE;
+	border-left: 1px solid #9CA0A9;
+	border-right: 1px solid #9CA0A9;
+	}ul li:hover{
+		-webkit-transition: background 0.2s linear;
+  -moz-transition: background 0.2s linear;
+  -o-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+	color: white;
+	background: rgb(0,109,238);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNmRlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDNkZTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgb(0,109,238) 0%, rgb(0,61,228) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(0,109,238)), color-stop(100%,rgb(0,61,228)));
+	background: -webkit-linear-gradient(top,  rgb(0,109,238) 0%,rgb(0,61,228) 100%);
+	background: -o-linear-gradient(top,  rgb(0,109,238) 0%,rgb(0,61,228) 100%);
+	background: -ms-linear-gradient(top,  rgb(0,109,238) 0%,rgb(0,61,228) 100%);
+	background: linear-gradient(to bottom,  rgb(0,109,238) 0%,rgb(0,61,228) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006dee', endColorstr='#003de4',GradientType=0 );
+	}ul li:first-child{
+	-webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+	}ul li:last-child{
+	border-bottom: 1px solid #9CA0A9;
+	-webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;    
+	}
+	/*include this using javascript if list has only one item*/
+	ul li.one{
+	border-bottom: 1px solid #9CA0A9;
+	-webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;	
+	}
+.bgtitle{
+	background: url(../img/bgtiles.png);	
+}
+.rounded{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
