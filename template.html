@@ -7,9 +7,9 @@
     <meta name="description" content="iOS elements in html and css"/>
     <meta name="citation_author" content="Melo, Mariz"/>
     <meta name="robots" content="all"/>
-    <link rel="stylesheet" href=""/>
-    <link rel="canonical" href=""/>
-    <link rel="alternate" type="application/rss+xml" title="" href=""/> 
+    <link rel="stylesheet" href="lib/css/ios.css"><!--[if IE 7]>
+    <link rel="stylesheet" href="lib/css/ios-ie7.css"><![endif]-->
+    <link rel="alternate" type="application/rss+xml" title="" href=""/>
     <title>iOSelements</title>
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,22 +26,30 @@
 <body class="bgtitle">
     <header class="noselect">
         <nav>
-            <a href="" class="btn left highlight">Left</a>
-            <a href="" class="btn right">Right</a>
+            <a href="#" class="btn left">Left</a>
+            <a href="#" class="btn right highlight">Right</a>
         </nav>
         <h1>Title</h1>
     </header>
     <fieldset>
-        <legend>List Legends</legend>
+        <legend>List Title</legend>
         <ul class="title rounded">
-            <li><b>First</b> option<i style="position: absolute; right: 0; margin-right: 20px;">></i></li>
+            <li><b>First</b> option<i class="icon-right-open"></i></li>
             <li class="divider">Divider</li>
-            <li><b>Second</b> option</li>
+            <li>
+                <b>Second</b> option
+                <i class="icon-right-open"></i>
+                <var>Variables</var>
+            </li>
         </ul>
     </fieldset>
     <fieldset>
         <ul class="rounded">
-            <li class="single"><b>Single</b> list</li>
+            <li class="single">
+                <b>Single</b> list
+                <label>18</label>
+                <i class="icon-right-open"></i>
+            </li>
         </ul>
     </fieldset>
     <!--SCRIPTS-->

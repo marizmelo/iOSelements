@@ -158,7 +158,36 @@ fieldset ul{
 	background:		-ms-linear-gradient(top,  rgb(183,196,206) 3%,rgb(135,150,161) 3%,rgb(185,197,206) 99%,rgb(130,141,150) 100%);
 	background: 	linear-gradient(to bottom,  rgb(183,196,206) 3%,rgb(135,150,161) 3%,rgb(185,197,206) 99%,rgb(130,141,150) 100%);
 	filter: 		progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7c4ce', endColorstr='#828d96',GradientType=0 );
-}
+	}fieldset ul li var, fieldset ul li label, fieldset ul li i{
+	position: absolute; 
+	right: 0;
+	}fieldset ul li var{
+	color: #3D507C;
+	font-size: 16px;
+	line-height: 22px;
+	font-style: normal;
+	margin-right: 40px;
+	}fieldset ul li:active var{
+	color: white;
+	}fieldset ul li label{
+	color: white;
+	background: #8B9CBD;
+	font-size: 15px;
+	padding: 2px 8px;
+	margin-right: 40px;
+	-moz-border-radius: 	20px;
+	-webkit-border-radius: 	20px;
+	border-radius: 			20px; /* future proofing */
+	-khtml-border-radius: 	20px; /* for old Konqueror browsers */
+	}fieldset ul li:active label{
+	color: #0039E9;
+	background: white;
+	}fieldset ul li i{
+	margin-right: 10px;
+	color: #686868;
+	}fieldset ul li:active i{
+	color: white;
+	}
 .left{
 	left: 0;
 }
