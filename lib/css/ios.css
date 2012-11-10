@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'ios';
   src: url("../font/ios.eot");
-  src: url("../font/ios.eot?#iefix") format('embedded-opentype'), url("../font/ios.woff") format('application/x-font-woff'), url("../font/ios.ttf") format('truetype'), url("../font/ios.svg#ios") format('svg');
+  src: url("../font/ios.eot?#iefix") format('embedded-opentype'), url("../font/ios.woff") format('woff'), url("../font/ios.ttf") format('truetype'), url("../font/ios.svg#ios") format('svg');
   font-weight: normal;
   font-style: normal;
 }
