@@ -14,8 +14,12 @@ form,input,select,button,textarea{
 	padding: 	0;
 	border: 	0;
 }
+html,body{
+	height: 100%;
+}
 body{
 	font-family: 'Roboto', Arial;
+	padding-bottom: 20px;
 }
 header{
 	width: 			100%;
