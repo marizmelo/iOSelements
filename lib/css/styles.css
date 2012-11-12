@@ -191,12 +191,12 @@ fieldset ul{
 	color: white;
 }
 footer.bottom_bar{
-	bottom: 	0px;
-	-moz-box-shadow: 0 -1px 0 #4C607A;
+	bottom: 						0px;
+	-moz-box-shadow: 		0 -1px 0 #4C607A;
 	-webkit-box-shadow: 0 -1px 0 #4C607A;
-	box-shadow: 0 -1px 0 #4C607A;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=-90, Color='#4C607A')";
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=-90, Color='#4C607A');
+	box-shadow: 				0 -1px 0 #4C607A;
+	-ms-filter: 				"progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=-90, Color='#4C607A')";
+	filter: 						progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=-90, Color='#4C607A');
 }
 .left{
 	left: 0;
