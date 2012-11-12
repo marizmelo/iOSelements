@@ -18,7 +18,7 @@
   width: 1em;
   margin-right: 0.2em;
   text-align: center;
-  /*opacity: 0.7;*/
+  /*opacity: 0.8;*/
 /* Uncomment for 3D effect */
 /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 /* fix buttons height */
@@ -29,6 +29,7 @@
 
 .icon-plus:before { content: '\2b'; } /* '+' */
 .icon-keyboard:before { content: '\2328'; } /* '⌨' */
+.icon-left-dir:before { content: '\25c2'; } /* '◂' */
 .icon-star:before { content: '\2605'; } /* '★' */
 .icon-star-empty:before { content: '\2606'; } /* '☆' */
 .icon-options:before { content: '\2630'; } /* '☰' */
@@ -38,8 +39,8 @@
 .icon-cancel-circle:before { content: '\e805'; } /* '' */
 .icon-minus-circle:before { content: '\2796'; } /* '➖' */
 .icon-forward:before { content: '\27a6'; } /* '➦' */
-.icon-forward-arrow:before { content: '\e806'; } /* '' */
-.icon-share:before { content: '\e803'; } /* '' */
+.icon-forward-arrow:before { content: '\e807'; } /* '' */
+.icon-share:before { content: '\e804'; } /* '' */
 .icon-resize-full:before { content: '\e80c'; } /* '' */
 .icon-resize-small:before { content: '\e746'; } /* '' */
 .icon-popup:before { content: '\e808'; } /* '' */
@@ -48,12 +49,12 @@
 .icon-dots:before { content: '\e78d'; } /* '' */
 .icon-featured:before { content: '\f310'; } /* '' */
 .icon-video:before { content: '🎥'; } /* '\1f3a5' */
-.icon-user:before { content: '\e800'; } /* '' */
+.icon-user:before { content: '\e802'; } /* '' */
 .icon-popular:before { content: '👥'; } /* '\1f465' */
 .icon-book:before { content: '📕'; } /* '\1f4d5' */
 .icon-book-open:before { content: '📖'; } /* '\1f4d6' */
-.icon-camera:before { content: '\e802'; } /* '' */
-.icon-search:before { content: '🔍'; } /* '\1f50d' */
+.icon-camera:before { content: '\e801'; } /* '' */
+.icon-search:before { content: '\e803'; } /* '' */
 .icon-bookmark:before { content: '🔖'; } /* '\1f516' */
 .icon-link:before { content: '🔗'; } /* '\1f517' */
 .icon-clock:before { content: '🕔'; } /* '\1f554' */

@@ -39,18 +39,18 @@ header, footer.bottom_bar{
 	}header{
 		top: 			0;
 	}header nav a{
-	border: 1px solid #354662;
-	color: white;
-	font-size: 12px;
+	border: 		1px solid #354662;
+	color: 			white;
+	font-size: 	12px;
 	text-decoration: none;
-	line-height: 14px;
-	margin: 5px;
-	position: absolute;
-	padding: 8px 12px;
+	line-height: 	14px;
+	margin: 			5px;
+	position: 		absolute;
+	padding: 			8px 12px;
 	background: red;
-	-moz-border-radius: 	5px;
+	-moz-border-radius: 		5px;
 	-webkit-border-radius: 	5px;
-	border-radius: 			5px; /* future proofing */
+	border-radius: 					5px; /* future proofing */
 	-khtml-border-radius: 	5px; /* for old Konqueror browsers */
 	background: rgb(124,141,166);
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdjOGRhNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMTRjN2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -60,12 +60,12 @@ header, footer.bottom_bar{
 	background: -o-linear-gradient(top,  rgb(124,141,166) 0%,rgb(49,76,124) 100%);
 	background: -ms-linear-gradient(top,  rgb(124,141,166) 0%,rgb(49,76,124) 100%);
 	background: linear-gradient(to bottom,  rgb(124,141,166) 0%,rgb(49,76,124) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c8da6', endColorstr='#314c7c',GradientType=0 );
-	box-shadow: 0px 1px 0px 0px #7185A6;
+	filter: 		progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c8da6', endColorstr='#314c7c',GradientType=0 );
+	box-shadow: 				0px 1px 0px 0px #7185A6;
 	-webkit-box-shadow: 0px 1px 0px 0px #7185A6;
-	-moz-box-shadow: 0px 1px 0px 0px #7185A6;
-	-o-box-shadow: 0px 1px 0px 0px #7185A6;
-	text-shadow: -1px -1px 0px #293340;
+	-moz-box-shadow: 		0px 1px 0px 0px #7185A6;
+	-o-box-shadow: 			0px 1px 0px 0px #7185A6;
+	text-shadow: 				-1px -1px 0px #293340;
 	filter: dropshadow(color=#293340, offx=0, offy=-1);
 	}header nav a:active{
 	background: rgb(119,131,160);
@@ -89,14 +89,14 @@ header, footer.bottom_bar{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e8bd6', endColorstr='#1a46d9',GradientType=0 );
 	}header h1{
 	font-size: 		20px;
-	color: 			white;
+	color: 				white;
 	font-weight: 	bold;
 	text-shadow: 	-1px -1px 0px #444C58;
   	filter: dropshadow(color=#444C58, offx=-1, offy=-1);
 }
 fieldset legend{
-	color:			#3B435A;
-	padding: 		5px 20px 10px 20px;
+	color:				#3B435A;
+	padding: 			5px 20px 10px 20px;
 	font-size:		18px;
 	font-weight: 	bold;
 	text-shadow:	1px 1px 0px #FFFFFF;
@@ -106,22 +106,22 @@ fieldset ul{
 	font-size: 		18px;
 	background: 	white;
 	list-style: 	none;
-	margin: 		20px 10px;
+	margin: 			20px 10px;
 	border-bottom: 	1px solid white;
 	}fieldset ul.title{
 	margin-top: 	60px;
 	}fieldset ul li{
 	position: 		relative;
-	cursor: 		pointer;
-	padding: 		10px;
+	cursor: 			pointer;
+	padding: 			10px;
 	border-top: 	1px solid #BEBEBE;
 	border-left: 	1px solid #9CA0A9;
 	border-right:	1px solid #9CA0A9;
 	-moz-user-select: 		-moz-none;
 	-khtml-user-select:		none;
 	-webkit-user-select: 	none;
-	-ms-user-select: 		none;
-	user-select: 			none;
+	-ms-user-select: 			none;
+	user-select: 					none;
 	}fieldset ul li:active{
 	color: 			white;
 	background: 	rgb(0,109,238);
@@ -135,15 +135,15 @@ fieldset ul{
 	filter: 		progid:DXImageTransform.Microsoft.gradient( startColorstr='#006dee', endColorstr='#003de4',GradientType=0 );
 	}fieldset ul li:first-child{
 	-webkit-border-radius: 	10px 10px 0px 0px;
-    border-radius: 			10px 10px 0px 0px;
+    border-radius: 				10px 10px 0px 0px;
 	}fieldset ul li:last-child{
-	border-bottom: 			1px solid #9CA0A9;
+	border-bottom: 					1px solid #9CA0A9;
 	-webkit-border-radius: 	0 0 10px 10px;
-    border-radius: 			0 0 10px 10px;    
+    border-radius: 				0 0 10px 10px;    
 	}fieldset ul li.single{ /*include this using javascript if list has only one item*/
-	border-bottom: 			1px solid #9CA0A9;
+	border-bottom: 					1px solid #9CA0A9;
 	-webkit-border-radius: 	10px 10px 10px 10px;
-    border-radius: 			10px 10px 10px 10px;
+    border-radius: 				10px 10px 10px 10px;
 	}fieldset ul li.divider{
 	font-weight: 	bold;
 	color: 			white;
@@ -217,15 +217,15 @@ footer.bottom_bar{
 	background: #98989c;
 }
 .rounded{
-	-moz-border-radius: 	10px;
+	-moz-border-radius: 		10px;
 	-webkit-border-radius: 	10px;
-	border-radius: 			10px; /* future proofing */
+	border-radius: 					10px; /* future proofing */
 	-khtml-border-radius: 	10px; /* for old Konqueror browsers */
 }
 .noselect{
-   -moz-user-select: 	-moz-none;
+   -moz-user-select: 		-moz-none;
    -khtml-user-select: 	none;
    -webkit-user-select: none;
-   -ms-user-select: 	none;
-   user-select: 		none;
+   -ms-user-select: 		none;
+   user-select: 				none;
 }
