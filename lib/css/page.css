@@ -44,7 +44,7 @@ body{
   margin: 10px 0;
   margin-right: 15px;
   background: black;
-  width: 150px;
+  width: 140px;
   display: block;
   text-decoration: none;
   color: white;
@@ -52,6 +52,9 @@ body{
 	-webkit-border-radius: 25px;
 	border-radius: 25px; /* future proofing */
 	-khtml-border-radius: 25px; /* for old Konqueror browsers */
+}
+.menu li a:hover{
+	background: gray;
 }
 .menu i{
 	margin-right: 5px;
