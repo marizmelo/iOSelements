@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold,light);
+
+body{
+	font-family: 'Roboto-Light', Arial;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.container{
+	position: relative;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	text-align: left;
+}
