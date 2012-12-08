@@ -53,9 +53,7 @@ body{
 	border-radius: 25px; /* future proofing */
 	-khtml-border-radius: 25px; /* for old Konqueror browsers */
 }
-.menu li a:hover{
-	background: gray;
-}
+.menu li a:hover{ background: gray; }
 .menu i{
 	margin-right: 5px;
 }
