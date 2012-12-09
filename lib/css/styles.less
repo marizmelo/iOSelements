@@ -5,56 +5,56 @@
 	MIT license
 */
 /* LESS MIXINS */
-.rounded-corners(@radius: 5px){
+.rounded-corners (@radius: 5px){
   border-radius: 					@radius;
   -webkit-border-radius: 	@radius;
   -moz-border-radius: 		@radius;
   -ms-border-radius: 			@radius;
   -o-border-radius: 			@radius;
 }
-.rounded-corners-custom(@lefttop: 10px, @righttop: 10px, @rightbottom: 10px, @leftbottom: 10px){
+.rounded-corners-custom (@lefttop: 10px, @righttop: 10px, @rightbottom: 10px, @leftbottom: 10px){
   border-radius: 					@lefttop @righttop @rightbottom @leftbottom;
   -webkit-border-radius: 	@lefttop @righttop @rightbottom @leftbottom;
   -moz-border-radius: 		@lefttop @righttop @rightbottom @leftbottom;
   -ms-border-radius: 			@lefttop @righttop @rightbottom @leftbottom;
   -o-border-radius: 			@lefttop @righttop @rightbottom @leftbottom;
 }
-.box-shadow(@arguments){
+.box-shadow (@arguments){
   -webkit-box-shadow:			@arguments;
   -moz-box-shadow: 				@arguments;
   -ms-box-shadow:					@arguments;
   -o-box-shadow:					@arguments;
   box-shadow: 						@arguments;
 }
-.linear-gradient(@color, @start, @stop){
-  background: 		@color;
-  background:			-webkit-gradient(linear, left bottom, left top, color-stop(0, @start), color-stop(1, @stop));
-  background:			-moz-linear-gradient(center bottom, @start 0%, @stop 100%);
-  background:			-ms-linear-gradient(bottom, @start, @stop);
-  background:			-o-linear-gradient(center bottom, @start 0%, @stop 100%);
+.linear-gradient (@color, @start, @stop, @deg: 90deg){
+	background: 		@color;
+	background:			-webkit-linear-gradient(@deg, @start 0%, @stop 100%);
+  background:			-moz-linear-gradient(@deg, @start 0%, @stop 100%);
+  background:			-ms-linear-gradient(@deg, @start 0%, @stop 100%);
+  background:			-o-linear-gradient(@deg, @start 0%, @stop 100%);
 }
-.noselect-mixin(){
+.noselect-mixin (){
 	-moz-user-select: 		-moz-none;
 	-khtml-user-select:		none;
 	-webkit-user-select: 	none;
 	-ms-user-select: 			none;
 	user-select: 					none;
 }
-.rotate(@deg){
+.rotate (@deg){
 	transform:						rotate(@deg);
 	-ms-transform:				rotate(@deg);
 	-moz-transform:				rotate(@deg);
 	-webkit-transform:		rotate(@deg);
 	-o-transform:					rotate(@deg);
 }
-.skew(@x, @y){
+.skew (@x, @y){
 	-moz-transform: skew(@x,@y);
 	-webkit-transform: skew(@x, @y);
 	-o-transform: skew(@x,@y);
 	-ms-transform: skew(@x,@y);
 	transform: skew(@x,@y);
 }
-.toolbar(@color: #6B81A3, @start: #465E87, @stop: #B0BFD6){
+.toolbar (@color: #6B81A3, @start: #465E87, @stop: #B0BFD6){
 	width: 					100%;
 	position: 			fixed;
 	border-top: 		1px solid #D7DFEB;
@@ -65,8 +65,8 @@
 	z-index: 				1000;
 	.linear-gradient(@color, @start, @stop);
 }
-.toolbar-buttons(@color: #596F94, @start: #314C7C, @stop: #8496B4){
-	.linear-gradient(@color, @start, @stop);
+.toolbar-buttons (@color: #596F94, @start: #314C7C, @stop: #8496B4){
+	.linear-gradient (@color, @start, @stop);
 }
 
 /* CSS RESET */
@@ -122,19 +122,10 @@ header, footer.bottom_bar{
 	border-top: solid 1px #354662;
 	.skew(10deg,10deg);
 	.rotate(-45deg);
-	background: 		#6B81A3;
-	background:			-webkit-linear-gradient(45deg, #314C7C 0%, #8496B4 100%);
-  background:			-moz-linear-gradient(45deg, #314C7C 0%, #8496B4 100%);
-  background:			-ms-linear-gradient(45deg, #314C7C 0%, #8496B4 100%);
-  background:			-o-linear-gradient(45deg, #314C7C 0%, #8496B4 100%);
+	.linear-gradient(#6B81A3, #314C7C, #8496B4, 45deg);
 	content: '';
 }header nav a.back:active .arrow:after{
-	background: 		#3D4C71;
-	background:			-webkit-linear-gradient(45deg, #1E2D5A 0%, #7783A0 100%);
-  background:			-moz-linear-gradient(45deg, #1E2D5A 0%, #7783A0 100%);
-  background:			-ms-linear-gradient(45deg, #1E2D5A 0%, #7783A0 100%);
-  background:			-o-linear-gradient(45deg, #1E2D5A 0%, #7783A0 100%);
-  
+	.linear-gradient(#3D4C71, #1E2D5A, #7783A0, 45deg);
 }header h1{
 	font-size: 		20px;
 	color: 				white;

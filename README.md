@@ -5,5 +5,5 @@
 
 iOS elements in HTML/CSS for mockup of web mobile applications (MIT license)
 
-![iOSelements preview](http://emoriz.com/github/ioselementspreview11102012_2.png)
+![iOSelements preview](http://emoriz.com/github/ioselements.png)
 
